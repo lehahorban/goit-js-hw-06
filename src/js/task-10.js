@@ -13,3 +13,23 @@ console.log(btnCreate);
 
 const btnDestroy = document.querySelector("[data-destroy]")
 console.log(btnDestroy);
+
+const boxes = document.querySelector("#boxes")
+console.log(boxes);
+
+const rrr = input.value
+
+btnCreate.addEventListener("click", createBoxes)
+
+
+function createBoxes(amount) {
+ 
+for (let i = 0; i < amount; i += 1) {
+  console.log(amount[i]);    
+  const box = document.createElement('div')   
+  boxes.append(box)
+}
+}
+
+console.log(createBoxes(5));
+
