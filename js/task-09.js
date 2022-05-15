@@ -2,6 +2,8 @@ function getRandomHexColor() {
   return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
 }
 
+const body = document.querySelector("body")
+
 const widget = document.querySelector(".widget")
 console.log(widget);
 
@@ -15,10 +17,10 @@ btnChangeColor.addEventListener('click', changeColor)
 btnChangeColor.addEventListener('click', outputColorValue)
 
 function changeColor() {
-widget.style.backgroundColor = getRandomHexColor()
+body.style.backgroundColor = getRandomHexColor()
 
 }
 
 function outputColorValue() {
-color.textContent = widget.style.backgroundColor
+color.textContent = body.style.backgroundColor
 }

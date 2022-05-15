@@ -17,7 +17,7 @@ console.log(btnDestroy);
 const boxes = document.querySelector("#boxes")
 console.log(boxes);
 
-const rrr = input.value
+
 
 btnCreate.addEventListener("click", createBoxes)
 

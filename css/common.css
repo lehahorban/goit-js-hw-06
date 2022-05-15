@@ -26,6 +26,7 @@ button {
 ul {
   list-style: none;
 }
+
 .gallery_list {
   display: flex;
 }

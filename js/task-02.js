@@ -26,14 +26,14 @@ ingredientsEl.append(...elements)
 console.log(createItem(ingredients))
 
 
-let elements = []
-for (let i = 0; i < array.length; i += 1) {
-  console.log(array[i]);
+// let elements = []
+// for (let i = 0; i < array.length; i += 1) {
+//   console.log(array[i]);
   
   
-  const ingredientItemEl = document.createElement('li')
-  ingredientItemEl.classList = "item"
-  ingredientItemEl.textContent = array[i]
-  ingredientsEl.appendChild(ingredientItemEl);
-  elements.push(ingredientItemEl)
-}
+//   const ingredientItemEl = document.createElement('li')
+//   ingredientItemEl.classList = "item"
+//   ingredientItemEl.textContent = array[i]
+//   ingredientsEl.appendChild(ingredientItemEl);
+//   elements.push(ingredientItemEl)
+// }
