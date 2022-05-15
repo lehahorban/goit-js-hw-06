@@ -1,14 +1,14 @@
 function createElement() {
     const categories = document.querySelector("#categories")
-    
+     
 const numberOfCategories = document.querySelectorAll('#categories ul');
 console.log('Number of categories:', numberOfCategories.length);
 const categoriesItem = document.querySelectorAll('.item');
  for (const item of categoriesItem) {
         const categoriesTitle = item.querySelector('#categories h2');
         const categoriesLength = item.querySelectorAll('ul li');
-        console.log(`Category: ${categoriesTitle.textContent}`);
-        console.log(`Elements: ${categoriesLength.length}`);
+        console.log("Category:", categoriesTitle.textContent);
+        console.log("Elements:", categoriesLength.length);
     }
 }
 
